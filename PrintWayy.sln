@@ -5,13 +5,13 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintWayy.MVC", "PrintWayy.MVC\PrintWayy.MVC.csproj", "{787EBF0E-9929-40D0-84A2-9C1C0587B23F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintWayy.API", "PrintWayy.API\PrintWayy.API.csproj", "{311D3DA1-3F98-4B63-82A5-37F9905B1C8A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintWayy.Infra.Data", "PrintWayy.Infra.Data\PrintWayy.Infra.Data.csproj", "{A0B03802-1EE7-4E59-928E-B04F74C1332A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintWayy.Application", "PrintWayy.Application\PrintWayy.Application.csproj", "{A983B733-CEFA-480A-A8CE-18160891C1CA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintWayy.Domain", "PrintWayy.Domain\PrintWayy.Domain.csproj", "{0759C3CF-FB5D-460D-9918-05FFFF91F2B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintWayy.API", "PrintWayy.API\PrintWayy.API.csproj", "{3C9DF862-B39A-4C8B-A235-3F420202AA99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,6 @@ Global
 		{787EBF0E-9929-40D0-84A2-9C1C0587B23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{787EBF0E-9929-40D0-84A2-9C1C0587B23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{787EBF0E-9929-40D0-84A2-9C1C0587B23F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{311D3DA1-3F98-4B63-82A5-37F9905B1C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{311D3DA1-3F98-4B63-82A5-37F9905B1C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{311D3DA1-3F98-4B63-82A5-37F9905B1C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{311D3DA1-3F98-4B63-82A5-37F9905B1C8A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A0B03802-1EE7-4E59-928E-B04F74C1332A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A0B03802-1EE7-4E59-928E-B04F74C1332A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0B03802-1EE7-4E59-928E-B04F74C1332A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{0759C3CF-FB5D-460D-9918-05FFFF91F2B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0759C3CF-FB5D-460D-9918-05FFFF91F2B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0759C3CF-FB5D-460D-9918-05FFFF91F2B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C9DF862-B39A-4C8B-A235-3F420202AA99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C9DF862-B39A-4C8B-A235-3F420202AA99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C9DF862-B39A-4C8B-A235-3F420202AA99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C9DF862-B39A-4C8B-A235-3F420202AA99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
